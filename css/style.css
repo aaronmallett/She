@@ -4,6 +4,11 @@
 	src: url("../fonts/genuine.woff");
 }
 
+@font-face {
+	font-family: lato;
+	src: url('..fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+
 
 body {
 	margin: 0 auto;
@@ -48,12 +53,41 @@ body {
     border-radius: 20px;
 }
 
-.perfect p{
+.perfect h1{
 	color: white;
 	font-family: 'genuine', helvetica, sans-serif;
-	font-size: 60pt;
-    line-height: 50pt;
+	font-size: 7.7em;
+    line-height: .85em;
     letter-spacing: 2pt;
+    margin-bottom: 0;
+}
+
+.perfect p {
+	color: white;
+	font-family: 'lato', helvetica, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: 30px;
+}
+
+.perfect a {
+	background-color: #e8c183;
+    color: white;
+    font-family: 'lato', helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.125em;
+    padding: 10px 60px;
+    border-radius: 21px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -o-border-radius: 21px;
+    transition: all 0.3s ease-in-out;
+}
+
+.perfect a:hover {
+	text-decoration: none;
+	background-color: transparent;
+	/*border: 2px solid #eBc183;*/
+	box-shadow:inset 0px 0px 0px 3px #eBc183;
 }
 
 .perfect {
@@ -72,6 +106,15 @@ body {
     top: 50%;
 
 }
+
+.perfect span {
+    color: #e8c183;
+}
+
+/**********************************
+PANEL2
+**********************************/
+
 
 #panel2 {
 	width: 100%;
