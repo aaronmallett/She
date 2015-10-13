@@ -6,6 +6,10 @@
 	#panel4 {
 		margin-bottom: 50px;
 	}
+
+	#panel2 img {
+		width: 100%;
+	}
 }
 
 @media (max-width: 960px) {
